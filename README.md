@@ -47,3 +47,8 @@ Account is a local demo profile, not server authentication. Orders stay on the d
 
 
 Colour refinement: cherry, lavender, butter yellow and pistachio surfaces. Russian UI copy, scroll reveals with reduced-motion support, 16px mobile form fields, tablet navigation breakpoint, and viewport checks at 360/768/1280px. All three checked widths have no horizontal body overflow; mobile navigation and catalogue filters verified.
+
+
+Usability pass: removed public demo/concept/placeholder labels, decorative arrows/stars, sample customer reviews and the unconfigured map. Replaced social-profile placeholders with functional share actions. Body text is 17–18px on mobile, primary buttons at least 56px. Quantity input and Remove actions replace symbol-only controls. Mobile checkout verified with quantity=3, correct date/contact, and Telegram share text. 360px and 768px checks passed with no horizontal overflow or clipped intro card.
+
+Production boundaries: no fabricated prices or address, no server account authentication, and no automatic order reception. Visitor explicitly selects Ariana in Telegram to send a prepared order. Direct contact, actual prices and fulfilment settings are still required for a full online shop. Local review entry was removed alongside sample public reviews.
