@@ -14,9 +14,9 @@
 ## Публикация
 
 Vercel team: Kava's projects (`team_Q0gSAvCYwRobOio0EUxnhM3F`).
-Vercel project: `arianas-bakery` (`prj_ZIKAVfSQ5kyvl5IhtDY8v9dKxtgs`).
-Production deployment: `dpl_CnRGtbBZad1fQtR31N5LGw11i7Tq`.
-Production URL: https://arianas-bakery.vercel.app
+Vercel project: `ariana-s` (`prj_wPcKwz77o6qx7KLYzy6VZgJYwnKn`).
+Production branch: `main`. Vercel automatically deploys pushes to this branch.
+Production URL: https://ariana-s.vercel.app
 Deployment configuration: `vercel.json`, output directory `dist`. No build dependencies.
 
 GitHub repository: https://github.com/kava-studia/Ariana-s
