@@ -44,3 +44,6 @@ Hero asset: `dist/assets/bakery.webp`, generated with the built-in image generat
 Bento artwork: dist/assets/collections.webp. Built-in image generation prompt: four equal photographic quadrants showing samsa, a small cherry cake, a Christmas bakery gift box and a Halloween bakery gift box; warm ivory and caramel editorial food photography, no text or people. All product imagery and holiday offerings are labelled illustrative concepts.
 
 Account is a local demo profile, not server authentication. Orders stay on the device until the visitor explicitly shares the text. Reviews are stored only on the visitor device, and the two editorial sample reviews are clearly marked. No confirmed customer reviews have been published.
+
+
+Colour refinement: cherry, lavender, butter yellow and pistachio surfaces. Russian UI copy, scroll reveals with reduced-motion support, 16px mobile form fields, tablet navigation breakpoint, and viewport checks at 360/768/1280px. All three checked widths have no horizontal body overflow; mobile navigation and catalogue filters verified.
