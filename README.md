@@ -1,0 +1,38 @@
+# Ariana’s
+
+Подарочная витрина домашней пекарни Арианы. Статический сайт и устанавливаемое PWA для телефона и компьютера.
+
+## Возможности
+
+- Пироги, самса и сладкая выпечка с фильтрами.
+- Корзина, количество, дата, имя, контакт и пожелания.
+- Подготовка текста заявки, копирование, системное меню обмена.
+- Корзина и черновик хранятся в localStorage на устройстве.
+- Service Worker для офлайн-доступа после первого открытия.
+- Адаптивная вёрстка, диалоги с клавиатурным управлением.
+
+## Публикация
+
+Vercel team: Kava's projects (`team_Q0gSAvCYwRobOio0EUxnhM3F`).
+Vercel project: `arianas-bakery` (`prj_ZIKAVfSQ5kyvl5IhtDY8v9dKxtgs`).
+Production deployment: `dpl_CnRGtbBZad1fQtR31N5LGw11i7Tq`.
+Production URL: https://arianas-bakery.vercel.app
+Deployment configuration: `vercel.json`, output directory `dist`. No build dependencies.
+
+GitHub repository: https://github.com/kava-studia/Ariana-s
+
+## Before accepting real orders
+
+Obtain Ariana’s confirmed contact, catalogue, photos, ingredients/allergens, prices and fulfilment terms. Replace illustrative content and connect the actual order destination. There is no backend, payment or automatic submission; do not advertise this as a functioning order reception service yet.
+
+## Editing
+
+`dist/app.js`: catalogue and order behavior. `dist/style.css`: visual styles. `dist/index.html`: editorial copy. Replace `dist/assets/bakery.webp` with approved product photography and update image labels. Increment cache version in `dist/sw.js` on releases.
+
+## Validation
+
+`node --check dist/app.js` and `node --check dist/sw.js` passed. Browser checked: render, add to cart, order form and generated order text. Mobile-specific device and offline installation checks remain manual.
+
+## Artwork
+
+Hero asset: `dist/assets/bakery.webp`, generated with the built-in image generation tool. Prompt: premium editorial photograph of a golden lattice apple pie and triangular sesame samsa on cream ceramic plates, burgundy gingham cloth, ivory tabletop and warm natural window light. No text or people. The site labels the generated imagery as illustrative.
